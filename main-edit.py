@@ -11,9 +11,6 @@ from subnetwork_generator import MainGenerateSamples
 import time
 import math
 
-
-# helper
-
 class NetworkParameters:
     def __init__(self, shadowing_std_dev, random_seed, num_subnetworks, testing_sanp):
         self.num_subnetworks = num_subnetworks
